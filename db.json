@@ -1,0 +1,86 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "patron",
+            "password": "password",
+            "role": "patron"
+        },
+        {
+            "id": 2,
+            "username": "host",
+            "password": "password",
+            "role": "host"
+        },
+        {
+            "id": 3,
+            "username": "waitstaff",
+            "password": "password3",
+            "role": "waitstaff"
+        }
+    ],
+    "orders": [
+        {
+            "username": "test",
+            "phone": "0303125656",
+            "date": "2023-03-17",
+            "user_id": 1,
+            "status": "On My Way",
+            "id": 18
+        },
+        {
+            "username": "test",
+            "phone": "03000000",
+            "date": "2023-03-15",
+            "user_id": 1,
+            "status": "Waiting",
+            "id": 19
+        },
+        {
+            "username": "test",
+            "phone": "0303122626",
+            "date": "2023-03-17",
+            "user_id": 1,
+            "status": "Waiting",
+            "id": 20
+        }
+    ],
+    "tableStatus": [
+        {
+            "id": 1,
+            "status": "Seated"
+        },
+        {
+            "id": 2,
+            "status": "Waiting"
+        },
+        {
+            "id": 3,
+            "status": "Cancel"
+        },
+        {
+            "id": 4,
+            "status": "On My Way"
+        },
+        {
+            "id": 5,
+            "status": "Delayed 15 minutes"
+        },
+        {
+            "id": 6,
+            "status": "Table Cleaned"
+        },
+        {
+            "id": 7,
+            "status": "Cheque Delivered"
+        },
+        {
+            "id": 8,
+            "status": "Cheque Paid"
+        },
+        {
+            "id": 9,
+            "status": "Table Cleaned"
+        }
+    ]
+}
